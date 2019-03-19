@@ -49,6 +49,7 @@
 <li>
 
 <div>
+    //echo ($children->title)."($children->publish_date)";
 <strong><?php print((string)$children->title) . "($children->publish_date)"; echo "<br>";?></strong>
 </div>
 <p><strong> Yazar: </strong> <?php echo $children->author;?></p>
